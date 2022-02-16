@@ -1096,15 +1096,7 @@ margin-bottom: 50px;
       display: grid;
   }
 
-  .home-container .home-img{
-      position: absolute;
-  }
-  .home-container .home-img img{
-      width: 65%;
-      margin-bottom: 350px;
-      margin-left: 25px;
-      transform: translateY(60px, -180px);
-  }
+ 
 
   .home .home-container .info{
       font-size: 0.8rem;
