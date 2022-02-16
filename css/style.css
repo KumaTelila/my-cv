@@ -173,9 +173,7 @@ header.sticky .nav-bar{
     margin: 10px 0;
 
 }
-.home-container .media-icons a:hover{
-    color: var(--hover-color);
-}
+
 .home-container .info h2{
     font-size: 4em;
     font-weight: 600;
@@ -996,6 +994,10 @@ margin-top: 50px;
     min-width: 0;
     width: 100%;
 }
+.home-container .media-icons {
+    display: flex;
+   flex-direction: row;
+}
 
   /*=======About section=======*/
   .about .container .content{
@@ -1096,7 +1098,16 @@ margin-bottom: 50px;
       display: grid;
   }
 
- 
+  .home-container .home-img{
+      position: absolute;
+  }
+  .home-container .home-img img{
+      width: 65%;
+    
+      /* margin-bottom: 350px;
+      margin-left: 200px; */
+      transform: translateY(60px, -180px);
+  }
 
   .home .home-container .info{
       font-size: 0.8rem;
