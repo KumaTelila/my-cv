@@ -990,13 +990,16 @@ margin-top: 50px;
   .home .home-container .info{
       font-size: 0.85rem;
   }
-  .home-img img{
+  .home-img{
     min-width: 0;
     width: 100%;
+    padding-bottom: 350px;
+    padding-left: 40px;
 }
 .home-container .media-icons {
     display: flex;
    flex-direction: row;
+   flex-direction: column;
 }
 
   /*=======About section=======*/
